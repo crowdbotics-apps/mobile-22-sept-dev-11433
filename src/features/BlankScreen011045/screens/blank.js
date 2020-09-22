@@ -50,6 +50,7 @@ export class __Blank extends React.Component {
         value={this.state.Input_4}
         onChangeText={nextValue => this.setState({ Input_4: nextValue })}
       />
+      <Image resizeMode="cover" style={this.props.themedStyle.Image_5} />
     </View>
   )
 }
@@ -178,6 +179,27 @@ _Blank = withStyles(__Blank, theme => ({
     textTransform: "none",
     lineHeight: 12,
     letterSpacing: 0
+  },
+  Image_5: {
+    width: "100%",
+    height: 200,
+    marginLeft: 0,
+    marginRight: 0,
+    marginTop: 0,
+    marginBottom: 0,
+    paddingLeft: 0,
+    paddingRight: 0,
+    paddingTop: 0,
+    paddingBottom: 0,
+    overflow: "visible",
+    borderColor: "#000000",
+    borderStyle: "solid",
+    borderWidth: 0,
+    borderLeftWidth: 0,
+    borderRightWidth: 0,
+    borderTopWidth: 0,
+    borderBottomWidth: 0,
+    borderRadius: 0
   }
 }))
 
