@@ -65,6 +65,24 @@ function api_v1_homepage_update(requestBody) {
 function api_v1_homepage_partial_update(requestBody) {
   return mobile22septAPI.patch(`/api/v1/homepage/{id}/`, requestBody)
 }
+function api_v1_hytuyt_list() {
+  return mobile22septAPI.get(`/api/v1/hytuyt/`)
+}
+function api_v1_hytuyt_create(requestBody) {
+  return mobile22septAPI.post(`/api/v1/hytuyt/`, requestBody)
+}
+function api_v1_hytuyt_read() {
+  return mobile22septAPI.get(`/api/v1/hytuyt/{id}/`)
+}
+function api_v1_hytuyt_update(requestBody) {
+  return mobile22septAPI.put(`/api/v1/hytuyt/{id}/`, requestBody)
+}
+function api_v1_hytuyt_partial_update(requestBody) {
+  return mobile22septAPI.patch(`/api/v1/hytuyt/{id}/`, requestBody)
+}
+function api_v1_hytuyt_delete() {
+  return mobile22septAPI.delete(`/api/v1/hytuyt/{id}/`)
+}
 function api_v1_login_create() {
   return mobile22septAPI.post(`/api/v1/login/`)
 }
@@ -122,6 +140,12 @@ export const apiService = {
   api_v1_homepage_read,
   api_v1_homepage_update,
   api_v1_homepage_partial_update,
+  api_v1_hytuyt_list,
+  api_v1_hytuyt_create,
+  api_v1_hytuyt_read,
+  api_v1_hytuyt_update,
+  api_v1_hytuyt_partial_update,
+  api_v1_hytuyt_delete,
   api_v1_login_create,
   api_v1_signup_create,
   rest_auth_login_create,
