@@ -50,7 +50,14 @@ export class __Blank extends React.Component {
         value={this.state.Input_4}
         onChangeText={nextValue => this.setState({ Input_4: nextValue })}
       />
-      <Image resizeMode="cover" style={this.props.themedStyle.Image_5} />
+      <Image
+        resizeMode="cover"
+        source={{
+          uri:
+            "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/2_WFihOlH.jpg"
+        }}
+        style={this.props.themedStyle.Image_5}
+      />
     </View>
   )
 }
