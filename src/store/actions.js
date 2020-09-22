@@ -346,58 +346,71 @@ export const rest_auth_user_partial_updateFailed = error => ({
   type: types.REST_AUTH_USER_PARTIAL_UPDATE_FAILED,
   error
 })
+
 export const api_v1_hytuyt_list = () => ({ type: types.API_V1_HYTUYT_LIST })
 export const api_v1_hytuyt_listSucceeded = response => ({
   type: types.API_V1_HYTUYT_LIST_SUCCEEDED,
   response
 })
+
 export const api_v1_hytuyt_listFailed = error => ({
   type: types.API_V1_HYTUYT_LIST_FAILED,
   error
 })
+
 export const api_v1_hytuyt_create = () => ({ type: types.API_V1_HYTUYT_CREATE })
 export const api_v1_hytuyt_createSucceeded = response => ({
   type: types.API_V1_HYTUYT_CREATE_SUCCEEDED,
   response
 })
+
 export const api_v1_hytuyt_createFailed = error => ({
   type: types.API_V1_HYTUYT_CREATE_FAILED,
   error
 })
+
 export const api_v1_hytuyt_read = () => ({ type: types.API_V1_HYTUYT_READ })
 export const api_v1_hytuyt_readSucceeded = response => ({
   type: types.API_V1_HYTUYT_READ_SUCCEEDED,
   response
 })
+
 export const api_v1_hytuyt_readFailed = error => ({
   type: types.API_V1_HYTUYT_READ_FAILED,
   error
 })
+
 export const api_v1_hytuyt_update = () => ({ type: types.API_V1_HYTUYT_UPDATE })
 export const api_v1_hytuyt_updateSucceeded = response => ({
   type: types.API_V1_HYTUYT_UPDATE_SUCCEEDED,
   response
 })
+
 export const api_v1_hytuyt_updateFailed = error => ({
   type: types.API_V1_HYTUYT_UPDATE_FAILED,
   error
 })
+
 export const api_v1_hytuyt_partial_update = () => ({
   type: types.API_V1_HYTUYT_PARTIAL_UPDATE
 })
+
 export const api_v1_hytuyt_partial_updateSucceeded = response => ({
   type: types.API_V1_HYTUYT_PARTIAL_UPDATE_SUCCEEDED,
   response
 })
+
 export const api_v1_hytuyt_partial_updateFailed = error => ({
   type: types.API_V1_HYTUYT_PARTIAL_UPDATE_FAILED,
   error
 })
+
 export const api_v1_hytuyt_delete = () => ({ type: types.API_V1_HYTUYT_DELETE })
 export const api_v1_hytuyt_deleteSucceeded = response => ({
   type: types.API_V1_HYTUYT_DELETE_SUCCEEDED,
   response
 })
+
 export const api_v1_hytuyt_deleteFailed = error => ({
   type: types.API_V1_HYTUYT_DELETE_FAILED,
   error
