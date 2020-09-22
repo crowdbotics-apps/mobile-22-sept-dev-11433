@@ -11,6 +11,17 @@ class User(AbstractUser):
         blank=True,
         max_length=255,
     )
+    ghfhgfhgf = models.PositiveSmallIntegerField(
+        null=True,
+        blank=True,
+    )
+    gfhgfhgf = models.ForeignKey(
+        "home.HomePage",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="user_gfhgfhgf",
+    )
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
