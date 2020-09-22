@@ -17,9 +17,9 @@ class User(AbstractUser):
     )
     gfhgfhgf = models.ForeignKey(
         "home.HomePage",
-        on_delete=models.CASCADE,
         null=True,
         blank=True,
+        on_delete=models.CASCADE,
         related_name="user_gfhgfhgf",
     )
 
