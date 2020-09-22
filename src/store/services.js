@@ -1,5 +1,10 @@
 import axios from "axios"
 import { NEW_CONNECTOR_GFGFGHF_TOKEN } from "react-native-dotenv"
+const newConnector76576 = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/11433/storyboard/11048/",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const newConnector123456789sdfds = axios.create({
   baseURL: "http://somup.com/cYQ32rXLdh",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
